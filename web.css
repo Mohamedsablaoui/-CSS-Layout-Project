@@ -1,0 +1,240 @@
+body, h1, h2, h3, p, a, button {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Basic styling for the body */
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+  }
+  
+  /* Header styling */
+  header {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    padding: 20px;
+    background-color: #f8f8f8;
+  }
+  
+  header a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  header img[name="gotohome"] {
+    height: 50px;
+  }
+  
+  .navtools a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #333;
+  }
+  
+  /* Lead section styling */
+  .leadsection {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #00f7ff;
+  }
+  
+  #headerlogo {
+    max-width: 150px;
+  }
+  
+  #headerp {
+    font-size: 1.5em;
+    margin: 20px 0;
+  }
+  
+  .twoparagraphs {
+    display: flex;
+    justify-content: space-around;
+    text-align: left;
+    margin-top: 20px;
+  }
+  
+  .twoparagraphs .p1, .twoparagraphs .p2 {
+    width: 45%;
+  }
+  
+  .twoparagraphs p {
+    margin-bottom: 15px;
+  }
+  
+  /* For section styling */
+  .forsection {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  .forsection div {
+    width: 30%;
+  }
+  
+  #main1 img, #main2 img, #main3 img {
+    width: 50px;
+  }
+  
+  #select1 select, #select2 select, #select3 select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+  }
+  
+  /* Section 3 styling */
+  .section3 {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #f1f1f1;
+  }
+  
+  #section3logos img {
+    max-width: 100px;
+    margin: 10px;
+  }
+  
+  /* Section 4 styling */
+  .section4 {
+    background-color: #ffffff;
+    padding: 40px 20px;
+  }
+  
+  .section4header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .section4header img {
+    max-width: 200px;
+    margin-top: 20px;
+  }
+  
+  .section4fourparts {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .first2, .second2 {
+    width: 48%;
+  }
+  
+  #leader, #patients, #appointments, #doctors {
+    margin-bottom: 20px;
+  }
+  
+  #leader img, #patients img, #appointments img, #doctors img {
+    width: 50px;
+    vertical-align: middle;
+  }
+  
+  #leader h3, #patients h3, #appointments h3, #doctors h3 {
+    margin-top: 10px;
+  }
+  
+  /* Section 5 styling */
+  .section5 {
+    background-color: #e8f5e9;
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  .section5 h3 {
+    margin-bottom: 20px;
+  }
+  
+  .section5 p {
+    margin-bottom: 20px;
+  }
+  
+  /* Section 6 styling */
+  .section6 {
+    padding: 40px 20px;
+    background-color: #f1f1f1;
+  }
+  
+  .country {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .country div {
+    width: 23%;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .country img {
+    max-width: 100px;
+  }
+  
+  .buttons {
+    margin-top: 10px;
+  }
+  
+  .buttons p {
+    margin-bottom: 10px;
+  }
+  
+  button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Section 7 styling */
+  .section7 {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #fff;
+  }
+  
+  .section7 h1 {
+    margin-bottom: 20px;
+  }
+  
+  .section7 button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .section7 button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Footer styling */
+  footer {
+    background-color: #f8f8f8;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  footer .end {
+    margin-bottom: 20px;
+  }
+  
+  footer a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  footer a:hover {
+    text-decoration: underline;
+  }
